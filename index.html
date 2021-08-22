@@ -27,24 +27,28 @@
     <nav id="nav" class="show">
         <ul>
             <li>
+                <ion-icon name="home-outline"></ion-icon>
+                <a href="#home">Inicio</a>
+            </li>
+            <li>
                 <ion-icon name="accessibility-outline"></ion-icon>
-                <a href="#">Acerca de mi</a>
+                <a href="#first">Acerca de mi</a>
             </li>
             <li>
                 <ion-icon name="paper-plane-outline"></ion-icon>
-                <a href="#">Viajes</a>
+                <a href="#second">Viajes</a>
             </li>
             <li>
                 <ion-icon name="bicycle-outline"></ion-icon>
-                <a href="#">Experiencias</a>
+                <a href="#third">Experiencias</a>
             </li>
             <li>
                 <ion-icon name="book-outline"></ion-icon>
-                <a href="#">Requerimientos</a>
+                <a href="#four">Requerimientos</a>
             </li>
         </ul>
     </nav>
-    <div class="presentation">
+    <div id="home" class="presentation">
         <div class="bg-presentation"></div>
         <img class="ed" src="/public/assets/Ed.jpg" alt="">
         <div class="greeting">
@@ -54,7 +58,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="about-me">
+        <div id="first" class="about-me">
             <div class="title">
                 <h2>Acerca de mi</h2>
             </div>
@@ -82,13 +86,13 @@
             </div>
         </div>
     </div>
-    <div class="travels">
+    <div id="second" class="travels">
         <div class="title"><h2>¿A que lugar visitamos?</h2></div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170454.47677570966!2d-103.83853838111622!3d19.258547714638937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842545523455a217%3A0xb6b497fc5af555e6!2sColima%2C%20Col.!5e0!3m2!1ses-419!2smx!4v1629584313911!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <div class="container">
-        <div class="gallery">
+        <div id="third" class="gallery">
             <h2>Echa un vistazo!</h2>
             <div class="flex-gallery">
 
@@ -225,7 +229,7 @@
             </div>
         </div>
     </div>
-    <div class="requeriments">
+    <div id="four" class="requeriments">
         <h2>¿Que necesito para un viaje?</h2>
         <img src="/public/assets/warning.png" alt="">
         <ul>
